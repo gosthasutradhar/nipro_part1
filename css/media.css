@@ -1,0 +1,194 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+/*header start*/
+header{
+	padding: 10px 0;
+	/*border: 1px solid black;*/
+}
+.logo{
+	font-size: 25px;
+}
+.dd_menu {
+    min-width: 300px;
+    }
+.dd_menu[data-bs-popper] {
+    top: 65px;
+    left: 0px;
+}   
+/*header end*/
+/*slider start*/
+.s_text {
+    margin-top: 80px;
+    margin-bottom: 80px;
+}
+.s_text h1 {
+    font-size: 35px;
+}
+.s_text p{
+	margin: 35px 0;
+}
+.s_text button {
+    width: 170px;
+    height: 40px;
+}
+/*slider end*/
+/*service start*/
+.service{
+    padding-bottom: 0;
+}
+.t_arrow {
+    height: 30px;
+}
+.c_h1 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.s_p {
+    margin-bottom: 60px;
+}
+.s_service {
+    margin-bottom: 40px !important;
+}
+/*service end*/
+/*about start*/
+.about{
+    padding-bottom: 60px ;
+}
+.a_text .a_h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.a_text .a_p {
+    margin: 20px 0;
+}
+.a_text button{
+    width: 170px;
+    height: 40px;
+}
+/*about end*/		
+}
+
+/*Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+/*header start*/
+header{
+	padding: 10px 0;
+	/*border: 1px solid black;*/
+}
+.logo{
+	font-size: 28px;
+}
+.dd_menu[data-bs-popper] {
+    top: 65px;
+    left: 0px;
+}   
+/*header end*/
+/*slider start*/
+.s_text {
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.s_text h1 {
+    font-size: 45px;
+}
+.s_text p{
+	margin: 35px 0;
+}
+/*slider end*/
+/*service start*/
+.service{
+    padding-bottom: 20px;
+}
+.c_h1 {
+    margin-top: 5px;
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.s_p {
+    margin-bottom: 60px;
+}
+.s_service {
+    margin-bottom: 40px !important;
+}
+/*service end*/	
+/*about start*/
+.about{
+    padding-bottom: 60px ;
+}
+.a_text .a_h1 {
+    margin-bottom: 20px;
+    font-size: 25px;
+}
+.a_text .a_p {
+    margin: 20px 0;
+}
+/*about end*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*header start*/
+    .dd_menu[data-bs-popper] {
+    top: 70px;
+    left: 0px;
+}   
+/*header end*/
+/*slider start*/
+.service{
+    padding-bottom: 20px;
+}
+.s_text {
+    margin-top: 150px;
+    margin-bottom: 150px;
+}
+.s_text h1 {
+    font-size: 45px;
+}
+/*slider end*/
+/*service start*/
+.s_p {
+    margin-bottom: 80px;
+}
+.s_service {
+    margin-bottom: 60px !important;
+}
+/*service end*/
+/*about start*/
+.a_text .a_h1 {
+    margin-bottom: 20px;
+}
+.a_text .a_p {
+    margin: 25px 0;
+}
+/*about end*/
+	
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+/*slider start*/
+.s_text h1 {
+    font-size: 55px;
+}
+/*slider end*/
+/*about start*/
+.a_text .a_h1 {
+    margin-bottom: 20px !important;
+}
+.a_text .a_p {
+    margin: 25px 0 !important;
+}
+/*about end*/
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+	
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+	
+}
